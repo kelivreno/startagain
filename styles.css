@@ -1,0 +1,19 @@
+body {
+    background-color: tomato;
+
+}
+/* Navbar */
+.container-navbar {
+    background-color: #333;
+}
+
+.ul-navbar {
+    background-color: green;
+    width: 20%;
+    height: 100px;
+}
+
+.li-navbar {
+    border: 1px solid black;
+    list-style-type: none;
+}
