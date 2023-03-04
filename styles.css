@@ -1,19 +1,62 @@
-body {
-    background-color: tomato;
-
+*,
+html {
+    margin: 0;
+    padding: 0;
 }
+
+.container-body {
+    height: 100vh;
+}
+
+/* Notes: vh => vertical heighet */
+
 /* Navbar */
 .container-navbar {
     background-color: #333;
-}
-
-.ul-navbar {
-    background-color: green;
-    width: 20%;
+    width: 100%;
     height: 100px;
 }
 
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
 .li-navbar {
-    border: 1px solid black;
+    border: 1px solid white;
+    background-color: black;
     list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    
+}
+
+/* Content */
+
+.container-content {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content {
+    width: 30%;
+    height: 30%;
+}
+
+/* Footer */
+
+.container-footer {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 40px;
 }
