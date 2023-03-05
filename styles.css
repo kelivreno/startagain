@@ -5,7 +5,7 @@ html {
 }
 
 .container-body {
-    height: 100vh;
+    
 }
 
 /* Notes: vh => vertical heighet */
@@ -14,12 +14,12 @@ html {
 .container-navbar {
     background-color: #333;
     width: 100%;
-    height: 100px;
+    height: 10vh;
 }
 
 .ul-navbar {
     display: flex;
-    height: 100px;
+    height: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -28,7 +28,7 @@ html {
     border: 1px solid white;
     background-color: black;
     list-style-type: none;
-    padding: 20px;
+    padding: 10px;
     margin: 5px;
     color: white;
     
@@ -41,11 +41,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
 }
 
 .img-content {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
 }
 
 /* Footer */
@@ -55,6 +56,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 10vh;
 }
 
 .h1-footer {
