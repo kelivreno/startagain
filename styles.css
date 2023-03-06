@@ -4,10 +4,6 @@ html {
     padding: 0;
 }
 
-.container-body {
-    
-}
-
 /* Notes: vh => vertical heighet */
 
 /* Navbar */
@@ -85,5 +81,6 @@ html {
 }
 
 .h1-footer {
+    color: white;
     font-size: 40px;
 }
